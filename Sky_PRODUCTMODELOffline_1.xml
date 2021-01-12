@@ -3,9 +3,9 @@
 <OtherProperties>
 <STATUS>UNFINISHED</STATUS>
 <CURRENTBATCH>1</CURRENTBATCH>
-<TOTALBATCH>20</TOTALBATCH>
+<TOTALBATCH>46</TOTALBATCH>
 <isOfferMapFile>false</isOfferMapFile>
-<CATALOGUSE>All</CATALOGUSE>
+<CATALOGUSE></CATALOGUSE>
 <TENANTID>Sky</TENANTID></OtherProperties>
 <Body><?xml version="1.0" encoding="UTF-8"?><ns0:ProductModels xmlns:ns0="http://www.tibco.com/AFF/classes/productmodel" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:datetime="http://exslt.org/dates-and-times" xmlns:java="http://xml.apache.org/xslt/java">
   <ns0:ProductModel>
@@ -14,8 +14,8 @@
       <ns0:description>Residential bundle</ns0:description>
       <ns0:owner>Sky</ns0:owner>
     </ns0:Product>
-    <ns0:startDate>2021-01-12T06:17:03-05:00</ns0:startDate>
-    <ns0:endDate>2021-01-12T06:17:03-05:00</ns0:endDate>
+    <ns0:startDate>2021-01-12T10:33:54-05:00</ns0:startDate>
+    <ns0:endDate>2021-01-12T10:33:54-05:00</ns0:endDate>
     <ns0:planFragments>
       <ns0:planFragmentUniqueId_CANCEL>
         <ns0:name>NON_EXECUTING</ns0:name>
@@ -232,74 +232,6 @@
       <ns0:Product>
         <ns0:productId>Entertainment</ns0:productId>
         <ns0:description>Enterteinment commercial product</ns0:description>
-      </ns0:Product>
-      <ns0:DependentOnProduct>
-        <ns0:Product>
-          <ns0:productId>SKY_RESIDENTIAL_ACCESS</ns0:productId>
-        </ns0:Product>
-      </ns0:DependentOnProduct>
-      <ns0:SingleUse>false</ns0:SingleUse>
-      <ns0:MustComplete>true</ns0:MustComplete>
-      <ns0:characteristics>
-        <ns0:name>GROUPNUMBER</ns0:name>
-        <ns0:description>GROUPNUMBER</ns0:description>
-        <ns0:instanceOptional/>
-        <ns0:instanceMin>0</ns0:instanceMin>
-        <ns0:instanceMax>0</ns0:instanceMax>
-        <ns0:value>
-          <ns0:type>OFFERID</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:value>
-          <ns0:type>GROUPNUMBER</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:simpleRule>
-          <ns0:name>GROUPNUMBER</ns0:name>
-        </ns0:simpleRule>
-        <ns0:simpleRule>
-          <ns0:name>ProductComprisedOf</ns0:name>
-        </ns0:simpleRule>
-      </ns0:characteristics>
-    </ns0:ItemSpecs>
-    <ns0:ItemSpecs>
-      <ns0:Product>
-        <ns0:productId>SkyQIPBox</ns0:productId>
-        <ns0:description>SkyQIPBox commercial product</ns0:description>
-      </ns0:Product>
-      <ns0:DependentOnProduct>
-        <ns0:Product>
-          <ns0:productId>SKY_RESIDENTIAL_ACCESS</ns0:productId>
-        </ns0:Product>
-      </ns0:DependentOnProduct>
-      <ns0:SingleUse>false</ns0:SingleUse>
-      <ns0:MustComplete>true</ns0:MustComplete>
-      <ns0:characteristics>
-        <ns0:name>GROUPNUMBER</ns0:name>
-        <ns0:description>GROUPNUMBER</ns0:description>
-        <ns0:instanceOptional/>
-        <ns0:instanceMin>0</ns0:instanceMin>
-        <ns0:instanceMax>0</ns0:instanceMax>
-        <ns0:value>
-          <ns0:type>OFFERID</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:value>
-          <ns0:type>GROUPNUMBER</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:simpleRule>
-          <ns0:name>GROUPNUMBER</ns0:name>
-        </ns0:simpleRule>
-        <ns0:simpleRule>
-          <ns0:name>ProductComprisedOf</ns0:name>
-        </ns0:simpleRule>
-      </ns0:characteristics>
-    </ns0:ItemSpecs>
-    <ns0:ItemSpecs>
-      <ns0:Product>
-        <ns0:productId>SkyQMinibox</ns0:productId>
-        <ns0:description>QMinibox commercial product</ns0:description>
       </ns0:Product>
       <ns0:DependentOnProduct>
         <ns0:Product>
@@ -573,41 +505,6 @@
       <ns0:Product>
         <ns0:productId>UHD</ns0:productId>
         <ns0:description>UHD commercial product</ns0:description>
-      </ns0:Product>
-      <ns0:DependentOnProduct>
-        <ns0:Product>
-          <ns0:productId>SKY_RESIDENTIAL_ACCESS</ns0:productId>
-        </ns0:Product>
-      </ns0:DependentOnProduct>
-      <ns0:SingleUse>false</ns0:SingleUse>
-      <ns0:MustComplete>true</ns0:MustComplete>
-      <ns0:characteristics>
-        <ns0:name>GROUPNUMBER</ns0:name>
-        <ns0:description>GROUPNUMBER</ns0:description>
-        <ns0:instanceOptional/>
-        <ns0:instanceMin>0</ns0:instanceMin>
-        <ns0:instanceMax>0</ns0:instanceMax>
-        <ns0:value>
-          <ns0:type>OFFERID</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:value>
-          <ns0:type>GROUPNUMBER</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:simpleRule>
-          <ns0:name>GROUPNUMBER</ns0:name>
-        </ns0:simpleRule>
-        <ns0:simpleRule>
-          <ns0:name>ProductComprisedOf</ns0:name>
-        </ns0:simpleRule>
-      </ns0:characteristics>
-    </ns0:ItemSpecs>
-    <ns0:ItemSpecs>
-      <ns0:Product>
-        <ns0:productId>SkyQReceiver1</ns0:productId>
-        <ns0:description>QReceiver1 product to enable customer to use “QReceiver1” content&#13;
-</ns0:description>
       </ns0:Product>
       <ns0:DependentOnProduct>
         <ns0:Product>
@@ -1182,40 +1079,6 @@
         </ns0:simpleRule>
       </ns0:characteristics>
     </ns0:ItemSpecs>
-    <ns0:ItemSpecs>
-      <ns0:Product>
-        <ns0:productId>SkySmartcard</ns0:productId>
-        <ns0:description>SkySmartcard product to enable customer to use "SkySmartcard" content</ns0:description>
-      </ns0:Product>
-      <ns0:DependentOnProduct>
-        <ns0:Product>
-          <ns0:productId>SKY_RESIDENTIAL_ACCESS</ns0:productId>
-        </ns0:Product>
-      </ns0:DependentOnProduct>
-      <ns0:SingleUse>false</ns0:SingleUse>
-      <ns0:MustComplete>true</ns0:MustComplete>
-      <ns0:characteristics>
-        <ns0:name>GROUPNUMBER</ns0:name>
-        <ns0:description>GROUPNUMBER</ns0:description>
-        <ns0:instanceOptional/>
-        <ns0:instanceMin>0</ns0:instanceMin>
-        <ns0:instanceMax>0</ns0:instanceMax>
-        <ns0:value>
-          <ns0:type>OFFERID</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:value>
-          <ns0:type>GROUPNUMBER</ns0:type>
-          <ns0:discreteValue/>
-        </ns0:value>
-        <ns0:simpleRule>
-          <ns0:name>GROUPNUMBER</ns0:name>
-        </ns0:simpleRule>
-        <ns0:simpleRule>
-          <ns0:name>ProductComprisedOf</ns0:name>
-        </ns0:simpleRule>
-      </ns0:characteristics>
-    </ns0:ItemSpecs>
     <ns0:characteristics>
       <ns0:name>PRODUCT_NAME</ns0:name>
       <ns0:value>
@@ -1545,86 +1408,6 @@
       </ns0:simpleRule>
     </ns0:characteristics>
     <ns0:characteristics>
-      <ns0:name>SkyQIPBox</ns0:name>
-      <ns0:description>ProductComprisedOf</ns0:description>
-      <ns0:instanceOptional/>
-      <ns0:instanceCeaseSequence/>
-      <ns0:instanceUpdateSequence/>
-      <ns0:instanceSequence/>
-      <ns0:instanceMin>0</ns0:instanceMin>
-      <ns0:instanceMax>0</ns0:instanceMax>
-      <ns0:actionID/>
-      <ns0:value>
-        <ns0:type>OFFERID</ns0:type>
-        <ns0:discreteValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>HARDWARE</ns0:type>
-        <ns0:discreteValue>ProductComprisedOf</ns0:discreteValue>
-        <ns0:mandatoryValue>false</ns0:mandatoryValue>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>AUTOPROVISION</ns0:type>
-        <ns0:rangeValue>true|false</ns0:rangeValue>
-        <ns0:discreteValue>false</ns0:discreteValue>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>ABD</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>LINKDEFINITIONS</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:simpleRule>
-        <ns0:name>ProductComprisedOf</ns0:name>
-        <ns0:ruleSetOutcome>SkyQIPBox</ns0:ruleSetOutcome>
-      </ns0:simpleRule>
-    </ns0:characteristics>
-    <ns0:characteristics>
-      <ns0:name>SkyQMinibox</ns0:name>
-      <ns0:description>ProductComprisedOf</ns0:description>
-      <ns0:instanceOptional/>
-      <ns0:instanceCeaseSequence/>
-      <ns0:instanceUpdateSequence/>
-      <ns0:instanceSequence/>
-      <ns0:instanceMin>0</ns0:instanceMin>
-      <ns0:instanceMax>0</ns0:instanceMax>
-      <ns0:actionID/>
-      <ns0:value>
-        <ns0:type>OFFERID</ns0:type>
-        <ns0:discreteValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>HARDWARE</ns0:type>
-        <ns0:discreteValue>ProductComprisedOf</ns0:discreteValue>
-        <ns0:mandatoryValue>false</ns0:mandatoryValue>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>AUTOPROVISION</ns0:type>
-        <ns0:rangeValue>true|false</ns0:rangeValue>
-        <ns0:discreteValue>false</ns0:discreteValue>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>ABD</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>LINKDEFINITIONS</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:simpleRule>
-        <ns0:name>ProductComprisedOf</ns0:name>
-        <ns0:ruleSetOutcome>SkyQMinibox</ns0:ruleSetOutcome>
-      </ns0:simpleRule>
-    </ns0:characteristics>
-    <ns0:characteristics>
       <ns0:name>Bundesliga</ns0:name>
       <ns0:description>ProductComprisedOf</ns0:description>
       <ns0:instanceOptional/>
@@ -1942,46 +1725,6 @@
       <ns0:simpleRule>
         <ns0:name>ProductComprisedOf</ns0:name>
         <ns0:ruleSetOutcome>UHD</ns0:ruleSetOutcome>
-      </ns0:simpleRule>
-    </ns0:characteristics>
-    <ns0:characteristics>
-      <ns0:name>SkyQReceiver1</ns0:name>
-      <ns0:description>ProductComprisedOf</ns0:description>
-      <ns0:instanceOptional/>
-      <ns0:instanceCeaseSequence/>
-      <ns0:instanceUpdateSequence/>
-      <ns0:instanceSequence/>
-      <ns0:instanceMin>0</ns0:instanceMin>
-      <ns0:instanceMax>0</ns0:instanceMax>
-      <ns0:actionID/>
-      <ns0:value>
-        <ns0:type>OFFERID</ns0:type>
-        <ns0:discreteValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>HARDWARE</ns0:type>
-        <ns0:discreteValue>ProductComprisedOf</ns0:discreteValue>
-        <ns0:mandatoryValue>false</ns0:mandatoryValue>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>AUTOPROVISION</ns0:type>
-        <ns0:rangeValue>true|false</ns0:rangeValue>
-        <ns0:discreteValue>false</ns0:discreteValue>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>ABD</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>LINKDEFINITIONS</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:simpleRule>
-        <ns0:name>ProductComprisedOf</ns0:name>
-        <ns0:ruleSetOutcome>SkyQReceiver1</ns0:ruleSetOutcome>
       </ns0:simpleRule>
     </ns0:characteristics>
     <ns0:characteristics>
@@ -2622,46 +2365,6 @@
       <ns0:simpleRule>
         <ns0:name>ProductComprisedOf</ns0:name>
         <ns0:ruleSetOutcome>Trendsports</ns0:ruleSetOutcome>
-      </ns0:simpleRule>
-    </ns0:characteristics>
-    <ns0:characteristics>
-      <ns0:name>SkySmartcard</ns0:name>
-      <ns0:description>ProductComprisedOf</ns0:description>
-      <ns0:instanceOptional/>
-      <ns0:instanceCeaseSequence/>
-      <ns0:instanceUpdateSequence/>
-      <ns0:instanceSequence/>
-      <ns0:instanceMin>0</ns0:instanceMin>
-      <ns0:instanceMax>0</ns0:instanceMax>
-      <ns0:actionID/>
-      <ns0:value>
-        <ns0:type>OFFERID</ns0:type>
-        <ns0:discreteValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>HARDWARE</ns0:type>
-        <ns0:discreteValue>ProductComprisedOf</ns0:discreteValue>
-        <ns0:mandatoryValue>false</ns0:mandatoryValue>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>AUTOPROVISION</ns0:type>
-        <ns0:rangeValue>true|false</ns0:rangeValue>
-        <ns0:discreteValue>false</ns0:discreteValue>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>ABD</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:value>
-        <ns0:type>LINKDEFINITIONS</ns0:type>
-        <ns0:discreteValue/>
-        <ns0:mandatoryValue/>
-      </ns0:value>
-      <ns0:simpleRule>
-        <ns0:name>ProductComprisedOf</ns0:name>
-        <ns0:ruleSetOutcome>SkySmartcard</ns0:ruleSetOutcome>
       </ns0:simpleRule>
     </ns0:characteristics>
   </ns0:ProductModel>
