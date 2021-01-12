@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jms1:ActivityOutput xmlns:jms1="http://www.tibco.com/namespaces/tnt/plugins/jms">
+<OtherProperties>
+<STATUS>UNFINISHED</STATUS>
+<CURRENTBATCH>18</CURRENTBATCH>
+<TOTALBATCH>20</TOTALBATCH>
+<isOfferMapFile>false</isOfferMapFile>
+<CATALOGUSE>All</CATALOGUSE>
+<TENANTID>Sky</TENANTID></OtherProperties>
+<Body><?xml version="1.0" encoding="UTF-8"?><ns0:ProductModels xmlns:ns0="http://www.tibco.com/AFF/classes/productmodel" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:datetime="http://exslt.org/dates-and-times" xmlns:java="http://xml.apache.org/xslt/java">
+  <ns0:ProductModel>
+    <ns0:Product>
+      <ns0:productId>SKY_SETEDG_TS</ns0:productId>
+      <ns0:description>EDG technical product</ns0:description>
+      <ns0:owner>sky</ns0:owner>
+    </ns0:Product>
+    <ns0:startDate>2021-01-12T06:17:03-05:00</ns0:startDate>
+    <ns0:endDate>2021-01-12T06:17:03-05:00</ns0:endDate>
+    <ns0:plan>
+      <ns0:name>SKY_SETEDG_PLNFRG</ns0:name>
+      <ns0:description>Plan fragment for EDG</ns0:description>
+      <ns0:action>PROVIDE</ns0:action>
+      <ns0:affinity>false</ns0:affinity>
+      <ns0:milestone>
+        <ns0:name>START</ns0:name>
+      </ns0:milestone>
+      <ns0:milestone>
+        <ns0:name>END</ns0:name>
+      </ns0:milestone>
+    </ns0:plan>
+    <ns0:plan>
+      <ns0:name>SKY_SETEDG_PLNFRG</ns0:name>
+      <ns0:description>Plan fragment for EDG</ns0:description>
+      <ns0:action>UPDATE</ns0:action>
+      <ns0:affinity>false</ns0:affinity>
+      <ns0:milestone>
+        <ns0:name>START</ns0:name>
+      </ns0:milestone>
+      <ns0:milestone>
+        <ns0:name>END</ns0:name>
+      </ns0:milestone>
+    </ns0:plan>
+    <ns0:plan>
+      <ns0:name>NON_EXECUTING</ns0:name>
+      <ns0:description>NON_EXECUTING</ns0:description>
+      <ns0:action>CEASE</ns0:action>
+      <ns0:affinity>false</ns0:affinity>
+      <ns0:milestone>
+        <ns0:name>START</ns0:name>
+      </ns0:milestone>
+      <ns0:milestone>
+        <ns0:name>END</ns0:name>
+      </ns0:milestone>
+    </ns0:plan>
+    <ns0:characteristics>
+      <ns0:name>PRODUCT_NAME</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>NULL</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome/>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>RECORD_TYPE</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>RFS</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome>RFS</ns0:ruleSetOutcome>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>RECORD_STATUS</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>ACTIVE</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome>ACTIVE</ns0:ruleSetOutcome>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>CIMAGEURL</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>NULL</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome/>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>PRODUCTIDEXT</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>NULL</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome>NULL</ns0:ruleSetOutcome>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>OFFERID</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue/>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome/>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>CONCURRENTORDER</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>NULL</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome>NULL</ns0:ruleSetOutcome>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+    <ns0:characteristics>
+      <ns0:name>SINGLEUSE</ns0:name>
+      <ns0:value>
+        <ns0:type>Feature</ns0:type>
+        <ns0:discreteValue>NULL</ns0:discreteValue>
+      </ns0:value>
+      <ns0:simpleRule>
+        <ns0:name>RULE</ns0:name>
+        <ns0:ruleSetOutcome>NULL</ns0:ruleSetOutcome>
+      </ns0:simpleRule>
+    </ns0:characteristics>
+  </ns0:ProductModel>
+</ns0:ProductModels>
+</Body>
+</jms1:ActivityOutput>
